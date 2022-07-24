@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "TK1RqjvPhR6LnQ4BFFlJ3S2pBrmhrN4+cRB/xgOU1E2oA0frcgB4NDf5Lz9LgOOLKVnlkhAiEfUPd6WbljhyHA==",
+  "success": true,
+  "projectFilePath": "C:\\source\\project\\CSC9010-Summer22\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jcveg\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\jcveg\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\jcveg\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\jcveg\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\jcveg\\.nuget\\packages\\system.reflection.typeextensions\\4.7.0\\system.reflection.typeextensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

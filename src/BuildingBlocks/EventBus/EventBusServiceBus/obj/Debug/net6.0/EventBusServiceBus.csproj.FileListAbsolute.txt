@@ -1,0 +1,15 @@
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\net6.0\EventBusServiceBus.deps.json
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\net6.0\EventBusServiceBus.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\net6.0\EventBusServiceBus.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\net6.0\EventBus.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\net6.0\EventBus.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\EventBusServiceBus.csproj.AssemblyReference.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\EventBusServiceBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\EventBusServiceBus.AssemblyInfoInputs.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\EventBusServiceBus.AssemblyInfo.cs
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\EventBusServiceBus.csproj.CoreCompileInputs.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\EventBusServiceBus.csproj.CopyComplete
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\EventBusServiceBus.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\refint\EventBusServiceBus.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\EventBusServiceBus.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\net6.0\ref\EventBusServiceBus.dll

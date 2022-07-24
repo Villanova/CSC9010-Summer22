@@ -1,0 +1,6 @@
+C:\source\project\CSC9010-Summer22\src\Services\Basket\Basket.UnitTests\obj\Debug\net6.0\Basket.UnitTests.csproj.AssemblyReference.cache
+C:\source\project\CSC9010-Summer22\src\Services\Basket\Basket.UnitTests\obj\Debug\net6.0\MvcTestingAppManifest.json
+C:\source\project\CSC9010-Summer22\src\Services\Basket\Basket.UnitTests\obj\Debug\net6.0\Basket.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\project\CSC9010-Summer22\src\Services\Basket\Basket.UnitTests\obj\Debug\net6.0\Basket.UnitTests.AssemblyInfoInputs.cache
+C:\source\project\CSC9010-Summer22\src\Services\Basket\Basket.UnitTests\obj\Debug\net6.0\Basket.UnitTests.AssemblyInfo.cs
+C:\source\project\CSC9010-Summer22\src\Services\Basket\Basket.UnitTests\obj\Debug\net6.0\Basket.UnitTests.csproj.CoreCompileInputs.cache

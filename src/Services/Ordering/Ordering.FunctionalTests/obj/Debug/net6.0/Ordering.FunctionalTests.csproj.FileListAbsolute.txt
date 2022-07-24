@@ -1,0 +1,6 @@
+C:\source\project\CSC9010-Summer22\src\Services\Ordering\Ordering.FunctionalTests\obj\Debug\net6.0\Ordering.FunctionalTests.csproj.AssemblyReference.cache
+C:\source\project\CSC9010-Summer22\src\Services\Ordering\Ordering.FunctionalTests\obj\Debug\net6.0\MvcTestingAppManifest.json
+C:\source\project\CSC9010-Summer22\src\Services\Ordering\Ordering.FunctionalTests\obj\Debug\net6.0\Ordering.FunctionalTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\project\CSC9010-Summer22\src\Services\Ordering\Ordering.FunctionalTests\obj\Debug\net6.0\Ordering.FunctionalTests.AssemblyInfoInputs.cache
+C:\source\project\CSC9010-Summer22\src\Services\Ordering\Ordering.FunctionalTests\obj\Debug\net6.0\Ordering.FunctionalTests.AssemblyInfo.cs
+C:\source\project\CSC9010-Summer22\src\Services\Ordering\Ordering.FunctionalTests\obj\Debug\net6.0\Ordering.FunctionalTests.csproj.CoreCompileInputs.cache

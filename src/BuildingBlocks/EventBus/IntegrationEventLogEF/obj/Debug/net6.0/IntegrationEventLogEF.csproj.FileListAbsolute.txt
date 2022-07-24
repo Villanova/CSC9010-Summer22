@@ -1,0 +1,17 @@
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\net6.0\IntegrationEventLogEF.deps.json
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\net6.0\IntegrationEventLogEF.runtimeconfig.json
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\net6.0\IntegrationEventLogEF.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\net6.0\IntegrationEventLogEF.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\net6.0\EventBus.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\bin\Debug\net6.0\EventBus.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.csproj.AssemblyReference.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.AssemblyInfoInputs.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.AssemblyInfo.cs
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.csproj.CoreCompileInputs.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.csproj.CopyComplete
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\refint\IntegrationEventLogEF.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\IntegrationEventLogEF.genruntimeconfig.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\IntegrationEventLogEF\obj\Debug\net6.0\ref\IntegrationEventLogEF.dll

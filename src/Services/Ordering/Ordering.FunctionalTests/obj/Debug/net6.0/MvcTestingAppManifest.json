@@ -1,0 +1,12 @@
+{
+  "Devspaces.Support, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\Devspaces.Support",
+  "EventBus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\EventBus\\EventBus",
+  "EventBusRabbitMQ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ",
+  "EventBusServiceBus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus",
+  "IntegrationEventLogEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF",
+  "Ordering.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\Services\\Ordering\\Ordering.API",
+  "Ordering.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\Services\\Ordering\\Ordering.Domain",
+  "Ordering.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\Services\\Ordering\\Ordering.Infrastructure",
+  "WebHost.Customization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization",
+  "WebMVC": "C:\\source\\project\\CSC9010-Summer22\\src\\Web\\WebMVC"
+}

@@ -1,0 +1,15 @@
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Debug\net6.0\EventBusRabbitMQ.deps.json
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Debug\net6.0\EventBusRabbitMQ.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Debug\net6.0\EventBusRabbitMQ.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Debug\net6.0\EventBus.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Debug\net6.0\EventBus.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.csproj.AssemblyReference.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.AssemblyInfoInputs.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.AssemblyInfo.cs
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.csproj.CopyComplete
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\refint\EventBusRabbitMQ.dll
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.pdb
+C:\source\project\CSC9010-Summer22\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Debug\net6.0\ref\EventBusRabbitMQ.dll
