@@ -8,99 +8,104 @@
     ".NETCoreApp,Version=v6.0": {
       "EventBusRabbitMQ/1.0.0": {
         "dependencies": {
-          "Autofac": "6.1.0",
+          "Autofac": "6.4.0",
           "EventBus": "1.0.0",
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.Extensions.Logging": "5.0.0",
-          "Polly": "7.2.1",
-          "RabbitMQ.Client": "6.2.1"
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Polly": "7.2.3",
+          "RabbitMQ.Client": "6.4.0"
         },
         "runtime": {
           "EventBusRabbitMQ.dll": {}
         }
       },
-      "Autofac/6.1.0": {
+      "Autofac/6.4.0": {
         "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "4.7.1"
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "runtime": {
-          "lib/net5.0/Autofac.dll": {
-            "assemblyVersion": "6.1.0.0",
-            "fileVersion": "6.1.0.0"
+          "lib/net6.0/Autofac.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
           }
         }
       },
       "Microsoft.CSharp/4.7.0": {},
-      "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
-      "Microsoft.Extensions.Logging/5.0.0": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "5.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Options": "5.0.0"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
-      "Microsoft.Extensions.Options/5.0.0": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Primitives": "5.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
-      "Microsoft.Extensions.Primitives/5.0.0": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
-      "Polly/7.2.1": {
+      "Polly/7.2.3": {
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.2.1.0"
+            "fileVersion": "7.2.3.0"
           }
         }
       },
-      "RabbitMQ.Client/6.2.1": {
+      "RabbitMQ.Client/6.4.0": {
         "dependencies": {
           "System.Memory": "4.5.4",
           "System.Threading.Channels": "4.7.1"
@@ -108,12 +113,17 @@
         "runtime": {
           "lib/netstandard2.0/RabbitMQ.Client.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.1.0"
+            "fileVersion": "6.4.0.0"
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.7.1": {},
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
       "System.Memory/4.5.4": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Threading.Channels/4.7.1": {},
       "EventBus/1.0.0": {
         "runtime": {
@@ -128,12 +138,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Autofac/6.1.0": {
+    "Autofac/6.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-22aXncFDye08TsXHobcxAoZFBeaJ9nrAxGzk9YHLLaIkYO7aeAA0Sz7Mii9qsfB76S1gdhebqMv8QsnknJMT/w==",
-      "path": "autofac/6.1.0",
-      "hashPath": "autofac.6.1.0.nupkg.sha512"
+      "sha512": "sha512-tkFxl6wAPuwVhrlN8wuNADnd+k2tv4ReP7ZZSL0vjfcN0RcfC9v25ogxK6b03HC7D4NwWjSLf1G/zTG8Bw43wQ==",
+      "path": "autofac/6.4.0",
+      "hashPath": "autofac.6.4.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -142,68 +152,68 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/5.0.0": {
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
-      "path": "microsoft.extensions.dependencyinjection/5.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512"
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging/5.0.0": {
+    "Microsoft.Extensions.Logging/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MgOwK6tPzB6YNH21wssJcw/2MKwee8b2gI7SllYfn6rvTpIrVvVS5HAjSU2vqSku1fwqRvWP0MdIi14qjd93Aw==",
-      "path": "microsoft.extensions.logging/5.0.0",
-      "hashPath": "microsoft.extensions.logging.5.0.0.nupkg.sha512"
+      "sha512": "sha512-eIbyj40QDg1NDz0HBW0S5f3wrLVnKWnDJ/JtZ+yJDFnDj90VoPuoPmFkeaXrtu+0cKm5GRAwoDf+dBWXK0TUdg==",
+      "path": "microsoft.extensions.logging/6.0.0",
+      "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
-      "path": "microsoft.extensions.logging.abstractions/5.0.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options/5.0.0": {
+    "Microsoft.Extensions.Options/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
-      "path": "microsoft.extensions.options/5.0.0",
-      "hashPath": "microsoft.extensions.options.5.0.0.nupkg.sha512"
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/5.0.0": {
+    "Microsoft.Extensions.Primitives/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
-      "path": "microsoft.extensions.primitives/5.0.0",
-      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
     },
-    "Polly/7.2.1": {
+    "Polly/7.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Od8SnPlpQr+PuAS0YzY3jgtzaDNknlIuAaldN2VEIyTvm/wCg22C5nUkUV1BEG8rIsub5RFMoV/NEQ0tM/+7Uw==",
-      "path": "polly/7.2.1",
-      "hashPath": "polly.7.2.1.nupkg.sha512"
+      "sha512": "sha512-DeCY0OFbNdNxsjntr1gTXHJ5pKUwYzp04Er2LLeN3g6pWhffsGuKVfMBLe1lw7x76HrPkLxKEFxBlpRxS2nDEQ==",
+      "path": "polly/7.2.3",
+      "hashPath": "polly.7.2.3.nupkg.sha512"
     },
-    "RabbitMQ.Client/6.2.1": {
+    "RabbitMQ.Client/6.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kdcin0uz1b9xQPvlLOoa8Y2zQsfu7nRuTrcX02dCLVzwGVlsPp9AFgu1L3kRh4wSFEOGE03OVqpWKxaDlhuowQ==",
-      "path": "rabbitmq.client/6.2.1",
-      "hashPath": "rabbitmq.client.6.2.1.nupkg.sha512"
+      "sha512": "sha512-1znR1gGU+xYVSpO5z8nQolcUKA/yydnxQn7Ug9+RUXxTSLMm/eE58VKGwahPBjELXvDnX0k/kBrAitFLRjx9LA==",
+      "path": "rabbitmq.client/6.4.0",
+      "hashPath": "rabbitmq.client.6.4.0.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/4.7.1": {
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
-      "path": "system.diagnostics.diagnosticsource/4.7.1",
-      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+      "sha512": "sha512-frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512"
     },
     "System.Memory/4.5.4": {
       "type": "package",
@@ -211,6 +221,13 @@
       "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
       "path": "system.memory/4.5.4",
       "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "System.Threading.Channels/4.7.1": {
       "type": "package",

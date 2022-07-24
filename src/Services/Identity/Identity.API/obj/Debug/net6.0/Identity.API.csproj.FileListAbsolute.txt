@@ -1,0 +1,9 @@
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.csproj.AssemblyReference.cache
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.AssemblyInfoInputs.cache
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.AssemblyInfo.cs
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.csproj.CoreCompileInputs.cache
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.MvcApplicationPartsAssemblyInfo.cs
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.MvcApplicationPartsAssemblyInfo.cache
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.RazorAssemblyInfo.cache
+C:\source\project\CSC9010-Summer22\src\Services\Identity\Identity.API\obj\Debug\net6.0\Identity.API.RazorAssemblyInfo.cs

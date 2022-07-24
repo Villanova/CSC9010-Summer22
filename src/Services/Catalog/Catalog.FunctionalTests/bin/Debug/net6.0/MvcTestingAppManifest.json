@@ -1,7 +1,0 @@
-{
-  "Catalog.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\Services\\Catalog\\Catalog.API",
-  "EventBus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\EventBus\\EventBus",
-  "EventBusRabbitMQ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ",
-  "EventBusServiceBus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus",
-  "IntegrationEventLogEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\source\\project\\CSC9010-Summer22\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF"
-}

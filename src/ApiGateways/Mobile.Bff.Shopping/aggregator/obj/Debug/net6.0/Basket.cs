@@ -59,19 +59,23 @@ namespace GrpcBasket {
     private static readonly pb::MessageParser<BasketRequest> _parser = new pb::MessageParser<BasketRequest>(() => new BasketRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<BasketRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::GrpcBasket.BasketReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public BasketRequest() {
       OnConstruction();
     }
@@ -79,12 +83,14 @@ namespace GrpcBasket {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public BasketRequest(BasketRequest other) : this() {
       id_ = other.id_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public BasketRequest Clone() {
       return new BasketRequest(this);
     }
@@ -93,6 +99,7 @@ namespace GrpcBasket {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -101,11 +108,13 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as BasketRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(BasketRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -118,6 +127,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -128,11 +138,13 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -149,6 +161,7 @@ namespace GrpcBasket {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Id.Length != 0) {
         output.WriteRawTag(10);
@@ -161,6 +174,7 @@ namespace GrpcBasket {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -173,6 +187,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(BasketRequest other) {
       if (other == null) {
         return;
@@ -184,6 +199,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -205,6 +221,7 @@ namespace GrpcBasket {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -231,19 +248,23 @@ namespace GrpcBasket {
     private static readonly pb::MessageParser<CustomerBasketRequest> _parser = new pb::MessageParser<CustomerBasketRequest>(() => new CustomerBasketRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CustomerBasketRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::GrpcBasket.BasketReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CustomerBasketRequest() {
       OnConstruction();
     }
@@ -251,6 +272,7 @@ namespace GrpcBasket {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CustomerBasketRequest(CustomerBasketRequest other) : this() {
       buyerid_ = other.buyerid_;
       items_ = other.items_.Clone();
@@ -258,6 +280,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CustomerBasketRequest Clone() {
       return new CustomerBasketRequest(this);
     }
@@ -266,6 +289,7 @@ namespace GrpcBasket {
     public const int BuyeridFieldNumber = 1;
     private string buyerid_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Buyerid {
       get { return buyerid_; }
       set {
@@ -279,16 +303,19 @@ namespace GrpcBasket {
         = pb::FieldCodec.ForMessage(18, global::GrpcBasket.BasketItemResponse.Parser);
     private readonly pbc::RepeatedField<global::GrpcBasket.BasketItemResponse> items_ = new pbc::RepeatedField<global::GrpcBasket.BasketItemResponse>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::GrpcBasket.BasketItemResponse> Items {
       get { return items_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as CustomerBasketRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(CustomerBasketRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -302,6 +329,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Buyerid.Length != 0) hash ^= Buyerid.GetHashCode();
@@ -313,11 +341,13 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -335,6 +365,7 @@ namespace GrpcBasket {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Buyerid.Length != 0) {
         output.WriteRawTag(10);
@@ -348,6 +379,7 @@ namespace GrpcBasket {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Buyerid.Length != 0) {
@@ -361,6 +393,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(CustomerBasketRequest other) {
       if (other == null) {
         return;
@@ -373,6 +406,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -398,6 +432,7 @@ namespace GrpcBasket {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -428,19 +463,23 @@ namespace GrpcBasket {
     private static readonly pb::MessageParser<CustomerBasketResponse> _parser = new pb::MessageParser<CustomerBasketResponse>(() => new CustomerBasketResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CustomerBasketResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::GrpcBasket.BasketReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CustomerBasketResponse() {
       OnConstruction();
     }
@@ -448,6 +487,7 @@ namespace GrpcBasket {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CustomerBasketResponse(CustomerBasketResponse other) : this() {
       buyerid_ = other.buyerid_;
       items_ = other.items_.Clone();
@@ -455,6 +495,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CustomerBasketResponse Clone() {
       return new CustomerBasketResponse(this);
     }
@@ -463,6 +504,7 @@ namespace GrpcBasket {
     public const int BuyeridFieldNumber = 1;
     private string buyerid_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Buyerid {
       get { return buyerid_; }
       set {
@@ -476,16 +518,19 @@ namespace GrpcBasket {
         = pb::FieldCodec.ForMessage(18, global::GrpcBasket.BasketItemResponse.Parser);
     private readonly pbc::RepeatedField<global::GrpcBasket.BasketItemResponse> items_ = new pbc::RepeatedField<global::GrpcBasket.BasketItemResponse>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::GrpcBasket.BasketItemResponse> Items {
       get { return items_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as CustomerBasketResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(CustomerBasketResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -499,6 +544,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Buyerid.Length != 0) hash ^= Buyerid.GetHashCode();
@@ -510,11 +556,13 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -532,6 +580,7 @@ namespace GrpcBasket {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Buyerid.Length != 0) {
         output.WriteRawTag(10);
@@ -545,6 +594,7 @@ namespace GrpcBasket {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Buyerid.Length != 0) {
@@ -558,6 +608,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(CustomerBasketResponse other) {
       if (other == null) {
         return;
@@ -570,6 +621,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -595,6 +647,7 @@ namespace GrpcBasket {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -625,19 +678,23 @@ namespace GrpcBasket {
     private static readonly pb::MessageParser<BasketItemResponse> _parser = new pb::MessageParser<BasketItemResponse>(() => new BasketItemResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<BasketItemResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::GrpcBasket.BasketReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public BasketItemResponse() {
       OnConstruction();
     }
@@ -645,6 +702,7 @@ namespace GrpcBasket {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public BasketItemResponse(BasketItemResponse other) : this() {
       id_ = other.id_;
       productid_ = other.productid_;
@@ -657,6 +715,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public BasketItemResponse Clone() {
       return new BasketItemResponse(this);
     }
@@ -665,6 +724,7 @@ namespace GrpcBasket {
     public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
       get { return id_; }
       set {
@@ -676,6 +736,7 @@ namespace GrpcBasket {
     public const int ProductidFieldNumber = 2;
     private int productid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Productid {
       get { return productid_; }
       set {
@@ -687,6 +748,7 @@ namespace GrpcBasket {
     public const int ProductnameFieldNumber = 3;
     private string productname_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Productname {
       get { return productname_; }
       set {
@@ -698,6 +760,7 @@ namespace GrpcBasket {
     public const int UnitpriceFieldNumber = 4;
     private double unitprice_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public double Unitprice {
       get { return unitprice_; }
       set {
@@ -709,6 +772,7 @@ namespace GrpcBasket {
     public const int OldunitpriceFieldNumber = 5;
     private double oldunitprice_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public double Oldunitprice {
       get { return oldunitprice_; }
       set {
@@ -720,6 +784,7 @@ namespace GrpcBasket {
     public const int QuantityFieldNumber = 6;
     private int quantity_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Quantity {
       get { return quantity_; }
       set {
@@ -731,6 +796,7 @@ namespace GrpcBasket {
     public const int PictureurlFieldNumber = 7;
     private string pictureurl_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Pictureurl {
       get { return pictureurl_; }
       set {
@@ -739,11 +805,13 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as BasketItemResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(BasketItemResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -762,6 +830,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
@@ -778,11 +847,13 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -823,6 +894,7 @@ namespace GrpcBasket {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Id.Length != 0) {
         output.WriteRawTag(10);
@@ -859,6 +931,7 @@ namespace GrpcBasket {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id.Length != 0) {
@@ -889,6 +962,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(BasketItemResponse other) {
       if (other == null) {
         return;
@@ -918,6 +992,7 @@ namespace GrpcBasket {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -963,6 +1038,7 @@ namespace GrpcBasket {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {

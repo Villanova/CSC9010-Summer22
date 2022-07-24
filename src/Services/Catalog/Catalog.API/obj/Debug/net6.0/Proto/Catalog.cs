@@ -67,19 +67,23 @@ namespace CatalogApi {
     private static readonly pb::MessageParser<CatalogItemRequest> _parser = new pb::MessageParser<CatalogItemRequest>(() => new CatalogItemRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CatalogItemRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::CatalogApi.CatalogReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemRequest() {
       OnConstruction();
     }
@@ -87,12 +91,14 @@ namespace CatalogApi {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemRequest(CatalogItemRequest other) : this() {
       id_ = other.id_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemRequest Clone() {
       return new CatalogItemRequest(this);
     }
@@ -101,6 +107,7 @@ namespace CatalogApi {
     public const int IdFieldNumber = 1;
     private int id_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Id {
       get { return id_; }
       set {
@@ -109,11 +116,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as CatalogItemRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(CatalogItemRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -126,6 +135,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id != 0) hash ^= Id.GetHashCode();
@@ -136,11 +146,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -157,6 +169,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Id != 0) {
         output.WriteRawTag(8);
@@ -169,6 +182,7 @@ namespace CatalogApi {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id != 0) {
@@ -181,6 +195,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(CatalogItemRequest other) {
       if (other == null) {
         return;
@@ -192,6 +207,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -213,6 +229,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -239,19 +256,23 @@ namespace CatalogApi {
     private static readonly pb::MessageParser<CatalogItemsRequest> _parser = new pb::MessageParser<CatalogItemsRequest>(() => new CatalogItemsRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CatalogItemsRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::CatalogApi.CatalogReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemsRequest() {
       OnConstruction();
     }
@@ -259,6 +280,7 @@ namespace CatalogApi {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemsRequest(CatalogItemsRequest other) : this() {
       ids_ = other.ids_;
       pageSize_ = other.pageSize_;
@@ -267,6 +289,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemsRequest Clone() {
       return new CatalogItemsRequest(this);
     }
@@ -275,6 +298,7 @@ namespace CatalogApi {
     public const int IdsFieldNumber = 1;
     private string ids_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ids {
       get { return ids_; }
       set {
@@ -286,6 +310,7 @@ namespace CatalogApi {
     public const int PageSizeFieldNumber = 2;
     private int pageSize_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int PageSize {
       get { return pageSize_; }
       set {
@@ -297,6 +322,7 @@ namespace CatalogApi {
     public const int PageIndexFieldNumber = 3;
     private int pageIndex_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int PageIndex {
       get { return pageIndex_; }
       set {
@@ -305,11 +331,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as CatalogItemsRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(CatalogItemsRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -324,6 +352,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Ids.Length != 0) hash ^= Ids.GetHashCode();
@@ -336,11 +365,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -365,6 +396,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Ids.Length != 0) {
         output.WriteRawTag(10);
@@ -385,6 +417,7 @@ namespace CatalogApi {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Ids.Length != 0) {
@@ -403,6 +436,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(CatalogItemsRequest other) {
       if (other == null) {
         return;
@@ -420,6 +454,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -449,6 +484,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -483,19 +519,23 @@ namespace CatalogApi {
     private static readonly pb::MessageParser<CatalogItemResponse> _parser = new pb::MessageParser<CatalogItemResponse>(() => new CatalogItemResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CatalogItemResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::CatalogApi.CatalogReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemResponse() {
       OnConstruction();
     }
@@ -503,6 +543,7 @@ namespace CatalogApi {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemResponse(CatalogItemResponse other) : this() {
       id_ = other.id_;
       name_ = other.name_;
@@ -520,6 +561,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogItemResponse Clone() {
       return new CatalogItemResponse(this);
     }
@@ -528,6 +570,7 @@ namespace CatalogApi {
     public const int IdFieldNumber = 1;
     private int id_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Id {
       get { return id_; }
       set {
@@ -539,6 +582,7 @@ namespace CatalogApi {
     public const int NameFieldNumber = 2;
     private string name_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
       get { return name_; }
       set {
@@ -550,6 +594,7 @@ namespace CatalogApi {
     public const int DescriptionFieldNumber = 3;
     private string description_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Description {
       get { return description_; }
       set {
@@ -561,6 +606,7 @@ namespace CatalogApi {
     public const int PriceFieldNumber = 4;
     private double price_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public double Price {
       get { return price_; }
       set {
@@ -572,6 +618,7 @@ namespace CatalogApi {
     public const int PictureFileNameFieldNumber = 5;
     private string pictureFileName_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PictureFileName {
       get { return pictureFileName_; }
       set {
@@ -583,6 +630,7 @@ namespace CatalogApi {
     public const int PictureUriFieldNumber = 6;
     private string pictureUri_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PictureUri {
       get { return pictureUri_; }
       set {
@@ -594,6 +642,7 @@ namespace CatalogApi {
     public const int CatalogTypeFieldNumber = 8;
     private global::CatalogApi.CatalogType catalogType_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::CatalogApi.CatalogType CatalogType {
       get { return catalogType_; }
       set {
@@ -605,6 +654,7 @@ namespace CatalogApi {
     public const int CatalogBrandFieldNumber = 10;
     private global::CatalogApi.CatalogBrand catalogBrand_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::CatalogApi.CatalogBrand CatalogBrand {
       get { return catalogBrand_; }
       set {
@@ -616,6 +666,7 @@ namespace CatalogApi {
     public const int AvailableStockFieldNumber = 11;
     private int availableStock_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int AvailableStock {
       get { return availableStock_; }
       set {
@@ -627,6 +678,7 @@ namespace CatalogApi {
     public const int RestockThresholdFieldNumber = 12;
     private int restockThreshold_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int RestockThreshold {
       get { return restockThreshold_; }
       set {
@@ -638,6 +690,7 @@ namespace CatalogApi {
     public const int MaxStockThresholdFieldNumber = 13;
     private int maxStockThreshold_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int MaxStockThreshold {
       get { return maxStockThreshold_; }
       set {
@@ -649,6 +702,7 @@ namespace CatalogApi {
     public const int OnReorderFieldNumber = 14;
     private bool onReorder_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool OnReorder {
       get { return onReorder_; }
       set {
@@ -657,11 +711,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as CatalogItemResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(CatalogItemResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -685,6 +741,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id != 0) hash ^= Id.GetHashCode();
@@ -706,11 +763,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -771,6 +830,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Id != 0) {
         output.WriteRawTag(8);
@@ -827,6 +887,7 @@ namespace CatalogApi {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id != 0) {
@@ -872,6 +933,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(CatalogItemResponse other) {
       if (other == null) {
         return;
@@ -922,6 +984,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -993,6 +1056,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -1069,19 +1133,23 @@ namespace CatalogApi {
     private static readonly pb::MessageParser<CatalogBrand> _parser = new pb::MessageParser<CatalogBrand>(() => new CatalogBrand());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CatalogBrand> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::CatalogApi.CatalogReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogBrand() {
       OnConstruction();
     }
@@ -1089,6 +1157,7 @@ namespace CatalogApi {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogBrand(CatalogBrand other) : this() {
       id_ = other.id_;
       name_ = other.name_;
@@ -1096,6 +1165,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogBrand Clone() {
       return new CatalogBrand(this);
     }
@@ -1104,6 +1174,7 @@ namespace CatalogApi {
     public const int IdFieldNumber = 1;
     private int id_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Id {
       get { return id_; }
       set {
@@ -1115,6 +1186,7 @@ namespace CatalogApi {
     public const int NameFieldNumber = 2;
     private string name_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
       get { return name_; }
       set {
@@ -1123,11 +1195,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as CatalogBrand);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(CatalogBrand other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1141,6 +1215,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id != 0) hash ^= Id.GetHashCode();
@@ -1152,11 +1227,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -1177,6 +1254,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Id != 0) {
         output.WriteRawTag(8);
@@ -1193,6 +1271,7 @@ namespace CatalogApi {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id != 0) {
@@ -1208,6 +1287,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(CatalogBrand other) {
       if (other == null) {
         return;
@@ -1222,6 +1302,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -1247,6 +1328,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -1277,19 +1359,23 @@ namespace CatalogApi {
     private static readonly pb::MessageParser<CatalogType> _parser = new pb::MessageParser<CatalogType>(() => new CatalogType());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CatalogType> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::CatalogApi.CatalogReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogType() {
       OnConstruction();
     }
@@ -1297,6 +1383,7 @@ namespace CatalogApi {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogType(CatalogType other) : this() {
       id_ = other.id_;
       type_ = other.type_;
@@ -1304,6 +1391,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CatalogType Clone() {
       return new CatalogType(this);
     }
@@ -1312,6 +1400,7 @@ namespace CatalogApi {
     public const int IdFieldNumber = 1;
     private int id_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Id {
       get { return id_; }
       set {
@@ -1323,6 +1412,7 @@ namespace CatalogApi {
     public const int TypeFieldNumber = 2;
     private string type_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Type {
       get { return type_; }
       set {
@@ -1331,11 +1421,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as CatalogType);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(CatalogType other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1349,6 +1441,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Id != 0) hash ^= Id.GetHashCode();
@@ -1360,11 +1453,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -1385,6 +1480,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Id != 0) {
         output.WriteRawTag(8);
@@ -1401,6 +1497,7 @@ namespace CatalogApi {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Id != 0) {
@@ -1416,6 +1513,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(CatalogType other) {
       if (other == null) {
         return;
@@ -1430,6 +1528,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -1455,6 +1554,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -1485,19 +1585,23 @@ namespace CatalogApi {
     private static readonly pb::MessageParser<PaginatedItemsResponse> _parser = new pb::MessageParser<PaginatedItemsResponse>(() => new PaginatedItemsResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<PaginatedItemsResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::CatalogApi.CatalogReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public PaginatedItemsResponse() {
       OnConstruction();
     }
@@ -1505,6 +1609,7 @@ namespace CatalogApi {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public PaginatedItemsResponse(PaginatedItemsResponse other) : this() {
       pageIndex_ = other.pageIndex_;
       pageSize_ = other.pageSize_;
@@ -1514,6 +1619,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public PaginatedItemsResponse Clone() {
       return new PaginatedItemsResponse(this);
     }
@@ -1522,6 +1628,7 @@ namespace CatalogApi {
     public const int PageIndexFieldNumber = 1;
     private int pageIndex_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int PageIndex {
       get { return pageIndex_; }
       set {
@@ -1533,6 +1640,7 @@ namespace CatalogApi {
     public const int PageSizeFieldNumber = 2;
     private int pageSize_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int PageSize {
       get { return pageSize_; }
       set {
@@ -1544,6 +1652,7 @@ namespace CatalogApi {
     public const int CountFieldNumber = 3;
     private long count_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Count {
       get { return count_; }
       set {
@@ -1557,16 +1666,19 @@ namespace CatalogApi {
         = pb::FieldCodec.ForMessage(34, global::CatalogApi.CatalogItemResponse.Parser);
     private readonly pbc::RepeatedField<global::CatalogApi.CatalogItemResponse> data_ = new pbc::RepeatedField<global::CatalogApi.CatalogItemResponse>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::CatalogApi.CatalogItemResponse> Data {
       get { return data_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as PaginatedItemsResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(PaginatedItemsResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1582,6 +1694,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (PageIndex != 0) hash ^= PageIndex.GetHashCode();
@@ -1595,11 +1708,13 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -1625,6 +1740,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (PageIndex != 0) {
         output.WriteRawTag(8);
@@ -1646,6 +1762,7 @@ namespace CatalogApi {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (PageIndex != 0) {
@@ -1665,6 +1782,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(PaginatedItemsResponse other) {
       if (other == null) {
         return;
@@ -1683,6 +1801,7 @@ namespace CatalogApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -1716,6 +1835,7 @@ namespace CatalogApi {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {

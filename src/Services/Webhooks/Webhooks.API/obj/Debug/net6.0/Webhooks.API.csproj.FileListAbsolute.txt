@@ -12,6 +12,7 @@ C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Azure.Core.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Azure.Core.Amqp.dll
+C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Azure.Identity.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Azure.Messaging.ServiceBus.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.ApplicationInsights.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.ApplicationInsights.AspNetCore.dll
@@ -33,11 +34,17 @@ C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.HealthChecks.dll
+C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.AzureAppServices.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
@@ -61,6 +68,7 @@ C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\System.Runtime.Caching.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\System.Text.Json.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\System.Windows.Extensions.dll
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\runtimes\debian-x64\native\libuv.so
 C:\source\project\CSC9010-Summer22\src\Services\Webhooks\Webhooks.API\bin\Debug\net6.0\runtimes\fedora-x64\native\libuv.so

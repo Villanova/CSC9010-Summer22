@@ -14,11 +14,11 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.web.librarymanager.build\2.1.113\build\Microsoft.Web.LibraryManager.Build.props" Condition="Exists('$(NuGetPackageRoot)microsoft.web.librarymanager.build\2.1.113\build\Microsoft.Web.LibraryManager.Build.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.web.librarymanager.build\2.1.175\build\Microsoft.Web.LibraryManager.Build.props" Condition="Exists('$(NuGetPackageRoot)microsoft.web.librarymanager.build\2.1.175\build\Microsoft.Web.LibraryManager.Build.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.7\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.7\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\jcveg\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
-    <PkgMicrosoft_Web_LibraryManager_Build Condition=" '$(PkgMicrosoft_Web_LibraryManager_Build)' == '' ">C:\Users\jcveg\.nuget\packages\microsoft.web.librarymanager.build\2.1.113</PkgMicrosoft_Web_LibraryManager_Build>
+    <PkgMicrosoft_Web_LibraryManager_Build Condition=" '$(PkgMicrosoft_Web_LibraryManager_Build)' == '' ">C:\Users\jcveg\.nuget\packages\microsoft.web.librarymanager.build\2.1.175</PkgMicrosoft_Web_LibraryManager_Build>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\jcveg\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgBuildBundlerMinifier Condition=" '$(PkgBuildBundlerMinifier)' == '' ">C:\Users\jcveg\.nuget\packages\buildbundlerminifier\3.2.449</PkgBuildBundlerMinifier>
   </PropertyGroup>

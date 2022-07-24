@@ -1,0 +1,8 @@
+C:\source\project\CSC9010-Summer22\src\Web\WebMVC\obj\Debug\net6.0\WebMVC.csproj.AssemblyReference.cache
+C:\source\project\CSC9010-Summer22\src\Web\WebMVC\obj\Debug\net6.0\WebMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\project\CSC9010-Summer22\src\Web\WebMVC\obj\Debug\net6.0\WebMVC.AssemblyInfoInputs.cache
+C:\source\project\CSC9010-Summer22\src\Web\WebMVC\obj\Debug\net6.0\WebMVC.AssemblyInfo.cs
+C:\source\project\CSC9010-Summer22\src\Web\WebMVC\obj\Debug\net6.0\WebMVC.csproj.CoreCompileInputs.cache
+C:\source\project\CSC9010-Summer22\src\Web\WebMVC\obj\Debug\net6.0\WebMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\source\project\CSC9010-Summer22\src\Web\WebMVC\obj\Debug\net6.0\WebMVC.RazorAssemblyInfo.cache
+C:\source\project\CSC9010-Summer22\src\Web\WebMVC\obj\Debug\net6.0\WebMVC.RazorAssemblyInfo.cs
